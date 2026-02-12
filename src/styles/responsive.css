@@ -1,0 +1,1362 @@
+/* Tablet View */
+@media (max-width: 1024px) {
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    /* Hide desktop menu and button */
+    .desktop-menu,
+    .desktop-btn {
+        display: none !important;
+    }
+
+    /* Show mobile menu icon */
+    .mobile-menu-icon {
+        display: block;
+        width: 30px;
+        height: auto;
+
+    }
+
+    .menu-icon {
+        color: var(--primary-color);
+    }
+
+    .menu-icon:hover {
+        color: var(--secondary-color);
+    }
+
+    /* Enable mobile off-canvas */
+    .mobile-offcanvas {
+        display: block;
+    }
+
+    .header-wrapper {
+        width: 100%;
+        min-width: 100%;
+        padding: 0px 20px;
+    }
+
+    .logo-slide {
+        height: 80px;
+    }
+
+    .university-logo {
+        max-width: 200px;
+    }
+
+    .logo {
+        width: 220px;
+        /* Medium size on tablet */
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 0px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section-wrapper {
+        padding-top: 170px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+        width: 100%;
+        height: auto;
+        padding: 10px 10px;
+    }
+
+    .hero-overlay {
+
+        display: flex;
+        flex-direction: column;
+
+        min-height: 900px;
+        max-height: 150vh;
+        gap: 20px;
+    }
+
+    .hero-left {
+        width: 370px;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+
+        & p {
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 400;
+
+        }
+
+    }
+
+    .word {
+        font-size: 24px;
+    }
+
+    .hero-right {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero-left-heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .hero-left-button-section {
+        padding: 0px;
+        gap: 20px;
+    }
+
+
+    .hero-righ-image {
+        width: 350px;
+        height: auto;
+    }
+
+    .trust-section {
+        padding: 60px 0px 20px 0px;
+
+        & h2 {
+            font-size: 24px;
+
+            & span {
+                color: var(--secondary-color);
+            }
+        }
+
+        & p {
+            font-size: 14px;
+        }
+    }
+
+    .trust-section-wrapper {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .trust-cards-container {
+        flex-direction: column;
+        gap: 70px;
+        height: auto;
+
+
+    }
+
+    .trust-card {
+        width: 100%;
+        height: 240px;
+        padding: 10px;
+    }
+
+
+    .success-section {
+        flex-direction: column;
+        padding: 0px 0px 30px 0px;
+        gap: 50px;
+    }
+
+    .success-content {
+        width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        & h3 {
+            color: var(--primary-color);
+            font-size: 24px;
+            width: 100%;
+        }
+
+        & p {
+            font-size: 16px;
+            font-weight: 400;
+            width: 100%;
+        }
+    }
+
+    .success-counters {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        width: 100%;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .counter-box {
+        background-color: #DAE9FE;
+        border-radius: 10px;
+        height: 150px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & h2 {
+            font-size: 28px;
+
+        }
+
+        & p {
+            font-size: 14px;
+        }
+    }
+
+    .destination-section {
+        width: 100%;
+        min-width: 100%;
+        padding: 60px 20px;
+        min-height: 650px;
+        max-height: auto;
+
+        & h2 {
+            font-size: 24px;
+
+            & span {
+                color: var(--secondary-color);
+            }
+        }
+
+        & p {
+            font-size: 14px;
+        }
+
+
+    }
+
+    .destination-swiper {
+        padding: 0px !important;
+    }
+
+    .child-carusol {
+        height: auto;
+    }
+
+    .find-section {
+        padding: 40px 0px 20px 0px;
+    }
+
+    .find-section-wrapper {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .find-section-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .find-section-content {
+        width: 100%;
+        padding: 50px 0px;
+        gap: 20px;
+
+        & h3 {
+            font-size: 24px;
+        }
+
+        & p {
+            font-size: 16px;
+        }
+    }
+
+    .student-services-section {
+        padding: 0px 0px 20px 0px;
+
+        & h2 {
+            font-size: 24px;
+
+            & span {
+                color: var(--secondary-color);
+            }
+        }
+
+        & p {
+            font-size: 14px;
+        }
+
+
+    }
+
+    .student-card {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .student-card-container {
+        flex-direction: column;
+        height: auto;
+        gap: 70px;
+
+    }
+
+    /* Video Testimonial Carousel Responsive */
+    .student-success-section {
+        padding: 0px 20px 60px 20px;
+        min-width: 100%;
+        width: 100%;
+
+        & h2 {
+            font-size: 24px;
+        }
+
+        & p {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .carousel-navigation {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .nav-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .testimonial-card {
+        height: 500px;
+    }
+
+    .play-button {
+        width: 60px;
+        height: 60px;
+        font-size: 18px;
+        border: 3px solid rgba(255, 255, 255, 0.8);
+    }
+
+    .content-overlay {
+        padding: 20px 15px;
+    }
+
+    .testimonial-quote {
+        font-size: 18px !important;
+    }
+
+    .testimonial-name {
+        font-size: 14px !important;
+    }
+
+    .testimonial-university {
+        font-size: 12px !important;
+    }
+
+    /* Google Review Carousel */
+    .google-review-carousel {
+        margin: 20px 0;
+    }
+
+    .google-review-card {
+        padding: 22px 18px;
+        gap: 10px;
+    }
+
+    .google-review-text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .google-review-rating .star {
+        font-size: 14px;
+    }
+
+    .google-reviews-section {
+        padding: 60px 0px 0px 0px;
+
+        & h2 {
+            font-size: 24px;
+        }
+
+        & p {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .free-pte-section {
+        padding: 20px 0px;
+        width: 100%;
+    }
+
+    .free-pte-section-wrapper {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .free-pte-section-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .free-pte-section-content {
+        width: 100%;
+        padding: 20px 0px;
+        gap: 20px;
+
+        & h3 {
+            font-size: 24px;
+        }
+
+        & p {
+            font-size: 16px;
+        }
+    }
+
+    .apply-now-section {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    /* Apply Now Form Responsive */
+    .apply-form-container {
+        padding: 30px 0px;
+    }
+
+    .apply-form-card {
+        padding: 32px 10px;
+    }
+
+    .apply-form-heading {
+        font-size: 22px;
+    }
+
+    .apply-form-subtitle {
+        font-size: 13px;
+        margin-bottom: 24px;
+    }
+
+    .apply-form-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .apply-form {
+        gap: 20px;
+    }
+
+    .apply-form-button {
+        width: 100%;
+        align-self: stretch;
+        padding: 12px 24px;
+    }
+
+    /* FAQ Accordion Responsive */
+    .faq-section {
+        padding: 40px 0px;
+    }
+
+    .faq-question-wrapper {
+        padding: 20px 16px;
+    }
+
+    .faq-question {
+        font-size: 14px;
+        padding-right: 12px;
+    }
+
+    .faq-toggle-btn {
+        width: 28px;
+        height: 28px;
+        min-width: 28px;
+    }
+
+    .faq-toggle-btn svg {
+        width: 10px;
+        height: 6px;
+    }
+
+    .faq-answer {
+        padding: 0 16px;
+    }
+
+    .faq-answer.expanded {
+        padding: 0 16px 20px 16px;
+    }
+
+    .faq-answer p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .faq-wrapper {
+        max-width: 100%;
+    }
+
+    .faq-section {
+
+
+        padding: 150px 20px 50px 20px;
+
+        margin-top: -150px;
+
+
+        & h2 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        & p {
+            font-size: 18px;
+            font-weight: 400;
+            max-width: 750px;
+            margin-bottom: 50px;
+        }
+    }
+
+
+    .cta-section {
+        padding: 20px 0px;
+    }
+
+    .cta-section-wrapper {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .cta-section-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .cta-section-content {
+        width: 100%;
+        padding: 50px 0px;
+        gap: 20px;
+
+        & h3 {
+            font-size: 24px;
+        }
+
+        & p {
+            font-size: 16px;
+        }
+    }
+
+    .cta-image {
+        margin-top: 0px;
+    }
+
+    /* Footer Responsive */
+    .footer-content {
+        padding: 40px 20px;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-brand {
+        gap: 16px;
+    }
+
+    .footer-description {
+        max-width: 100%;
+    }
+
+    .footer-social-icons {
+        gap: 10px;
+    }
+
+    .social-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .social-icon svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .footer-heading {
+        font-size: 16px;
+    }
+
+    .footer-links {
+        gap: 10px;
+    }
+
+    .footer-links li a {
+        font-size: 13px;
+    }
+
+    .contact-item {
+        gap: 10px;
+    }
+
+    .contact-icon {
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+    }
+
+    .contact-icon svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .contact-item span {
+        font-size: 12px;
+        padding-top: 4px;
+    }
+
+    .footer-bottom {
+        padding: 20px;
+    }
+
+    .footer-bottom-content {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .footer-bottom-links {
+        gap: 16px;
+    }
+
+    .footer-bottom-links a {
+        font-size: 12px;
+    }
+
+    .footer-overlay {
+        background-position: center bottom;
+        background-size: contain;
+    }
+
+    .page-main-layout {
+        flex: 1;
+        padding-top: 85px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .page-inner-layout {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .home-main-layout {
+        flex: 1;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    /* Destination Page Responsive */
+    .page-title-section {
+        min-height: 180px;
+        background-image: url('/images/destination-page-header.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .page-title-content {
+        padding: 20px 20px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .breadcrumb {
+        font-size: 12px;
+        margin-bottom: 10px;
+
+    }
+
+    .breadcrumb span {
+        color: #ffffff;
+    }
+
+
+    .breadcrumb .current {
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    .page-title {
+        font-size: 32px;
+        margin: 10px 0px;
+    }
+
+    .page-title-section .btn {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+
+    .tab-button-section {
+        gap: 10px;
+        overflow-y: auto;
+        width: auto;
+        /* Hide scrollbar but keep scroll - cross-browser */
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    /* Chrome, Safari, Opera */
+    .tab-button-section::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .tab-button {
+        padding: 10px 20px;
+        font-size: 13px;
+        text-wrap: nowrap;
+    }
+
+    .description-section {
+        flex-direction: column;
+    }
+
+    .description-content {
+        width: 100%;
+    }
+
+    .description-puzzle {
+        width: 100%;
+    }
+
+    .institute-section {
+        justify-content: row;
+
+        & h2 {
+            font-size: 32px;
+
+        }
+    }
+
+    .apply-board-section {
+        justify-content: row;
+
+        & h2 {
+            font-size: 32px;
+
+        }
+    }
+
+    .institute-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px
+    }
+
+    .institute-button-section {
+
+
+        & .btn {
+            height: auto;
+
+        }
+    }
+
+    .why-study-section {
+        gap: 10px;
+
+        & h3 {
+            font-size: 24px;
+        }
+
+        & p {
+            font-size: 16px;
+        }
+    }
+
+    .why-study-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px;
+    }
+
+    .why-content-card {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .why-icon-section {
+        width: 100%;
+    }
+
+    .why-content-section {
+        width: 100%;
+
+        & h4 {
+            font-size: 20px;
+
+        }
+
+        & p {
+            font-size: 14px;
+        }
+    }
+
+    .apply-study-section {
+        gap: 10px;
+        padding: 50px 0px;
+
+        & h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        & p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .apply-study-container {
+        padding: 0;
+    }
+
+    .steps-wrapper {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0;
+    }
+
+    .step-item {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+        gap: 20px;
+        min-width: auto;
+    }
+
+    .step-number {
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        font-size: 20px;
+    }
+
+    .step-content {
+        text-align: left;
+        flex: 1;
+    }
+
+    .step-content h3 {
+        font-size: 16px;
+    }
+
+    .step-content p {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .step-connector {
+        display: none;
+    }
+
+
+
+    .scholarship-header {
+        padding: 15px;
+
+        & h3 {
+            font-size: 18px;
+        }
+    }
+
+    .scholarship-content {
+
+        gap: 10px;
+
+        & h4 {
+            font-size: 18px;
+        }
+    }
+
+    .university-name {
+        font-size: 14px;
+    }
+
+    .feature-item {
+        font-size: 14px;
+    }
+
+    .scholarship-btn {
+        padding: 10px 16px;
+        font-size: 14px;
+        margin: 8px 15px 15px 15px;
+    }
+
+    .load-more-link {
+        font-size: 14px;
+    }
+
+    .scholarships-section {
+        padding: 40px 0px;
+        gap: 25px;
+
+        & h2 {
+            font-size: 22px;
+            padding: 0px;
+        }
+    }
+
+    .scholarships-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0px
+    }
+
+    .scholarship-header {
+        padding: 15px;
+
+        & h3 {
+            font-size: 16px;
+        }
+    }
+
+    .scholarship-content {
+        gap: 10px;
+
+        & h4 {
+            font-size: 15px;
+        }
+    }
+
+    .university-name {
+        font-size: 11px;
+    }
+
+    .feature-item {
+        font-size: 12px;
+    }
+
+    .feature-icon {
+        font-size: 14px;
+    }
+
+    .scholarship-btn {
+        padding: 10px 14px;
+        font-size: 13px;
+        margin: 8px 15px 15px 15px;
+    }
+
+    .load-more-link {
+        font-size: 13px;
+    }
+
+    .scholarship-features {
+        margin: 5px 0px;
+    }
+
+    .apply-now-custom {
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .apply-now-image {
+        width: 80%;
+        height: auto;
+    }
+
+    .home-cta {
+        padding: 0px;
+    }
+
+    .scholarship-main {
+        flex: 1;
+        padding-top: 85px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .filter-offcanvas {
+        max-width: 100%;
+    }
+
+    .filter-offcanvas-header {
+        padding: 16px;
+    }
+
+    .filter-offcanvas-body {
+        padding: 16px;
+    }
+
+    .scholarship-container-content {
+        flex-direction: column;
+    }
+
+    .scholarship-filters-section {
+        display: none !important;
+        width: 100% !important;
+    }
+
+    .mobile-filter-button {
+        display: block;
+    }
+
+    .scholarships-card-section {
+        width: 100% !important;
+    }
+
+    .desktop-only {
+        display: none !important;
+    }
+
+    .mobile-only {
+        display: block !important;
+    }
+
+    .filter-offcanvas {
+        max-width: 90vw;
+    }
+
+    .scholarship-cards-placeholder {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .why-chose-pte {
+
+        padding: 60px 0px 0px 0px;
+
+        & .why-chose-pte-wrapper {
+            width: 100%;
+
+            & h2 {
+                font-size: 24px;
+            }
+
+            & p {
+                font-size: 14px;
+                width: 100%;
+
+            }
+
+        }
+    }
+
+    .test-format-container-wrapper {
+        width: 100%;
+
+        & h2 {
+            font-size: 20px;
+        }
+
+        & p {
+            font-size: 14px;
+            width: 100%;
+        }
+    }
+
+    .test-format-container {
+        display: column;
+    }
+
+    .test-format-grid,
+    .test-format-grid-pte,
+    .test-format-grid-ielts {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .test-format-card {
+        padding: 15px;
+    }
+
+
+    .test-format-header-content {
+
+        & h4 {
+            font-size: 20px;
+        }
+
+        & p {
+            font-size: 14px;
+        }
+    }
+
+
+    .service-main-content {
+        width: 100%;
+
+        & h2 {
+            font-size: 32px;
+
+        }
+
+        & p {
+            font-size: 14px;
+
+        }
+    }
+
+    .service-content-container {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    /* Bring image first on mobile when needed */
+    .reverse-mobile .service-images-container {
+        order: -1;
+    }
+
+    .service-images-container {
+        width: 100%;
+    }
+
+    .services-container-image {
+        max-width: 800px;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .service-detail-container {
+        width: 100%;
+
+        & .service-badge {
+
+            & span {
+                font-size: 14px;
+                color: var(--primary-color);
+                font-weight: 400;
+            }
+        }
+
+        & h4 {
+            font-size: 24px;
+
+        }
+
+        & p {
+            font-size: 16px;
+        }
+    }
+
+
+    .about-content-section {
+        width: 100%;
+        background-color: #F7F7F7;
+        padding: 50px 20px;
+
+        & p {
+            font-size: 20px;
+        }
+
+
+    }
+
+    .contact-content-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-content-section {
+        width: 100%;
+
+        & h3 {
+            font-size: 40px;
+        }
+    }
+
+    .contact-form-section {
+        width: 100%;
+    }
+
+    /* Popup responsive */
+    .popup-content {
+        flex-direction: column;
+
+    }
+
+    .popup-image-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .test-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .popup-content-section {
+        width: 100%;
+        padding: 0px 20px 40px 20px;
+    }
+
+    .bullet-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* MCQs Test Responsive */
+
+    .mcqs-test-container {
+        padding: 0px;
+    }
+
+    .mcqs-test-wrapper {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .mcqs-left-section {
+        width: 100%;
+    }
+
+    .mcqs-header {
+        flex-direction: column;
+        gap: 12px;
+
+        & h1 {
+            font-size: 24px;
+        }
+    }
+
+    .mcqs-right-section {
+        width: 100%;
+    }
+
+    .mcqs-user-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mcqs-actions {
+        flex-direction: column;
+        gap: 16px;
+
+        & .btn-primary {
+            width: 100%;
+        }
+    }
+
+    .mcqs-nav-buttons {
+        width: 100%;
+
+        & button {
+            flex: 1;
+        }
+    }
+
+    .mcqs-option {
+        padding: 12px 16px;
+    }
+
+    /* Results Page Responsive */
+    .results-header {
+        margin-bottom: 30px;
+
+        & h1 {
+            font-size: 28px;
+        }
+
+        & p {
+            font-size: 14px;
+        }
+    }
+
+
+    .results-wrapper {
+
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .results-right-section {
+        width: 100%;
+    }
+
+    .results-left-section {
+        width: 100%;
+    }
+
+    .results-card {
+        padding: 24px;
+    }
+
+    .results-card h2 {
+        font-size: 20px;
+    }
+
+    .score-display {
+        width: 150px;
+        height: 90px;
+    }
+
+    .score-text {
+        font-size: 36px;
+    }
+
+    .coupon-card {
+        padding: 20px;
+    }
+
+    .coupon-code {
+        font-size: 20px;
+        padding: 16px;
+    }
+
+    .trophy-icon {
+        font-size: 60px;
+    }
+
+    .mobile-submenu {
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--foreground);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .mobile-submenu-link {
+        display: block;
+        padding: 10px 0;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .institute-card {
+        padding: 0px;
+    }
+
+    .institute-image {
+        width: 100%;
+        height: auto;
+    }
+
+}
