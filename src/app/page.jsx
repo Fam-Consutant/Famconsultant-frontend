@@ -424,7 +424,7 @@ export default function Home() {
         </div>
         {/*Google Reviews*/}
         <div className="home-main-layout">
-          {/* <div className="google-reviews-section animate-on-scroll">
+          <div className="google-reviews-section animate-on-scroll">
             <h2>
               Hear From Our <span>Successful Students</span>
             </h2>
@@ -434,7 +434,7 @@ export default function Home() {
               dreams.
             </p>
             <GoogleReviewCarousel />
-          </div> */}
+          </div>
 
           {/* Free PTE Section*/}
           <div className="animate-on-scroll">
