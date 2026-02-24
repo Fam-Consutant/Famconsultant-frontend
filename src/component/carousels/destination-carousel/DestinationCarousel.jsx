@@ -20,7 +20,7 @@ const DestinationCarousel = () => {
     isPending: isDestinationsLoading,
   } = useMutation({
     mutationKey: ["destinations"],
-    mutationFn: () => apiClient.get("/api/studies/destinations?sortOrder=desc"),
+    mutationFn: () => apiClient.get("/api/studies/destinations?sortOrder=asc"),
   });
 
   useEffect(() => {

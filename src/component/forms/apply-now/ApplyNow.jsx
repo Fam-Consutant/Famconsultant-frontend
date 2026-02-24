@@ -31,7 +31,7 @@ const ApplyNow = ({ page, shadow= false }) => {
     isLoading: isDestinationsLoading,
   } = useQuery({
     queryKey: ["destinations"],
-    queryFn: () => apiClient.get("/api/studies/destinations?sortOrder=desc"),
+    queryFn: () => apiClient.get("/api/studies/destinations?sortOrder=asc"),
   });
 
   // Update destinations when API response is available

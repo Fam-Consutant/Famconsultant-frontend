@@ -21,7 +21,7 @@ const Footer = ({ mainContent = true }) => {
     mutate: fetchDestinations,
   } = useMutation({
     mutationKey: ["footer-destinations"],
-    mutationFn: () => apiClient.get("/api/studies/destinations?sortOrder=desc"),
+    mutationFn: () => apiClient.get("/api/studies/destinations?sortOrder=asc"),
     onSuccess: (response) => {
       if (response?.data && response.data.length > 0) {
         // Shuffle and get 5 random destinations
