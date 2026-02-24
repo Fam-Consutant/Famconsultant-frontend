@@ -212,7 +212,7 @@
 
 .header-wrapper {
     min-width: 1140px;
-    width: 1440px;
+    width: 1340px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -542,8 +542,8 @@
     display: flex;
     height: 100%;
     min-width: 940px;
-    width: 1380px;
-    padding: 100px 100px;
+    width: 1280px;
+    padding: 100px 0px;
 }
 
 .hero-overlay {
@@ -639,7 +639,7 @@
 .trust-section-wrapper {
     display: flex;
     min-width: 1140px;
-    width: 1440px;
+    width: 1340px;
     flex-direction: column;
     padding: 0px 30px;
 
@@ -814,7 +814,7 @@
 .destination-section {
     display: flex;
     min-width: 1140px;
-    max-width: 1440px;
+    max-width: 1340px;
     flex-direction: column;
 
     margin: 0 auto;
@@ -1163,7 +1163,7 @@
 
 .student-success-section {
     min-width: 1140px;
-    max-width: 1440px;
+    max-width: 1340px;
     padding: 0px 30px;
     margin: 0 auto;
     text-align: left;
@@ -1707,7 +1707,7 @@
 
 .faq-wrapper {
     width: 1140px;
-    max-width: 1440px;
+    max-width: 1340px;
     padding: 0px;
     margin: 0 auto;
 }
@@ -1921,7 +1921,7 @@
 
 .footer-content {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1340px;
     margin: 0 auto;
     padding: 60px 30px;
     display: grid;
@@ -2069,7 +2069,7 @@
 }
 
 .footer-bottom-content {
-    max-width: 1440px;
+    max-width: 1340px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -2781,7 +2781,7 @@
 .home-main-layout {
     flex: 1;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1340px;
     margin: 0px auto;
     z-index: 1;
     padding: 0px 30px;
@@ -2791,7 +2791,7 @@
     flex: 1;
     padding-top: 85px !important;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1340px;
     margin: 50px auto;
     z-index: 2;
     padding: 0px 30px;
@@ -2801,7 +2801,7 @@
 .page-inner-layout {
     flex: 1;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1340px;
     margin: 50px auto;
     padding: 0px 30px;
 }

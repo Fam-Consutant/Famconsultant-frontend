@@ -220,7 +220,7 @@ const ApplyNow = ({ page, shadow= false }) => {
               />
             </div>
 
-            <div className="apply-form-group">
+            {/* <div className="apply-form-group">
               <label className="apply-form-label">Preferred Batch</label>
               <select
                 name="batch"
@@ -235,7 +235,7 @@ const ApplyNow = ({ page, shadow= false }) => {
                 <option value="Spring 2027">Spring 2027</option>
                 <option value="Other">Other</option>
               </select>
-            </div>
+            </div> */}
           </div>
 
           <div>
