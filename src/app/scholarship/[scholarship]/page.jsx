@@ -86,7 +86,7 @@ const ScholarshipPage = ({ params }) => {
   // Fetch destinations from API
   const { data: destinationsResponse, isLoading: destinationsLoading, isFetching: destinationsFetching } = useQuery({
     queryKey: ["destinations"],
-    queryFn: () => apiClient.get("/api/studies/destinations"),
+    queryFn: () => apiClient.get("/api/studies/destinations?sortOrder=desc"),
   });
 
   const studyTypes = useMemo(

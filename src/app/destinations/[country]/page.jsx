@@ -26,7 +26,7 @@ const DestinationPage = ({ params }) => {
   // Fetch destinations from API
   const { data: destinationsResponse, isLoading } = useQuery({
     queryKey: ["destinations"],
-    queryFn: () => apiClient.get("/api/studies/destinations"),
+    queryFn: () => apiClient.get("/api/studies/destinations?sortOrder=desc"),
   });
 
   // Find matching destination by country name (case-insensitive)

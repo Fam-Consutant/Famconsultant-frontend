@@ -32,7 +32,7 @@ const Header = ({ variant = "transparent" }) => {
     isError: isDestinationsError,
   } = useMutation({
     mutationKey: ["destinations"],
-    mutationFn: () => apiClient.get("/api/studies/destinations"),
+    mutationFn: () => apiClient.get("/api/studies/destinations?sortOrder=desc"),
     onSuccess: (response) => {
       if (response?.data && response.data.length > 0) {
         const destinationList = response.data.map((dest) => ({

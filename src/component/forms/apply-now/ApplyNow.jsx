@@ -14,7 +14,7 @@ const ApplyNow = ({ page, shadow= false }) => {
     preferredCountry: "",
     fieldOfInterest: "",
     city: "",
-    batch: "",
+    batch: "N/A",
   });
   const [showPopup, setShowPopup] = useState(false);
   const [destinations, setDestinations] = useState([
@@ -31,7 +31,7 @@ const ApplyNow = ({ page, shadow= false }) => {
     isLoading: isDestinationsLoading,
   } = useQuery({
     queryKey: ["destinations"],
-    queryFn: () => apiClient.get("/api/studies/destinations"),
+    queryFn: () => apiClient.get("/api/studies/destinations?sortOrder=desc"),
   });
 
   // Update destinations when API response is available
@@ -62,7 +62,7 @@ const ApplyNow = ({ page, shadow= false }) => {
         preferredCountry: "",
         fieldOfInterest: "",
         city: "",
-        batch: "",
+        batch: "N/A",
       });
       // Show success popup
       setShowPopup(true);
