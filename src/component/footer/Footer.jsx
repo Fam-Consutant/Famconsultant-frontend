@@ -229,7 +229,7 @@ const Footer = ({ mainContent = true }) => {
                       />
                     </svg>
                   </div>
-                  <span>0325 6862000</span>
+                  <span>0325 6862000 | 0326 6862000</span>
                 </div>
                 <div className="contact-item">
                   <div className="footer-contact-icon">
@@ -287,7 +287,7 @@ const Footer = ({ mainContent = true }) => {
                     </svg>
                   </div>
                   <span>
-                    1st Floor Office 71 & 71 Mumtaz Market, Gujranwala
+                    1st Floor Office 71 & 72 Mumtaz Market, Gujranwala
                   </span>
                 </div>
                 <div className="contact-item">
@@ -316,7 +316,7 @@ const Footer = ({ mainContent = true }) => {
                       />
                     </svg>
                   </div>
-                  <span>Monday - Saturday: 10 am–5:30 pm</span>
+                  <span>Monday - Saturday: 10 AM – 6:00 PM</span>
                 </div>
               </div>
             </div>
