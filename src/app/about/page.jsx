@@ -101,9 +101,10 @@ const page = () => {
             We are a dedicated study-abroad consultancy committed to guiding
             students toward global education opportunities. With expert
             counselors, transparent processes, and personalized support,{" "}
-          </span>
+          
           we help students secure admissions, visas, scholarships, and smooth
           transitions to top international universities.
+          </span>
         </p>
       </div>
 
