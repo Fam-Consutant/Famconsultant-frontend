@@ -17,9 +17,7 @@ const Footer = ({ mainContent = true }) => {
   ]);
 
   // Fetch destinations from API
-  const {
-    mutate: fetchDestinations,
-  } = useMutation({
+  const { mutate: fetchDestinations } = useMutation({
     mutationKey: ["footer-destinations"],
     mutationFn: () => apiClient.get("/api/studies/destinations?sortOrder=asc"),
     onSuccess: (response) => {
@@ -27,7 +25,7 @@ const Footer = ({ mainContent = true }) => {
         // Shuffle and get 5 random destinations
         const shuffled = [...response.data].sort(() => 0.5 - Math.random());
         const randomFive = shuffled.slice(0, 5);
-        
+
         const destinationList = randomFive.map((dest) => ({
           name: dest.name,
           href: `/destinations/${encodeURIComponent(dest.name.toLowerCase())}`,
@@ -332,7 +330,16 @@ const Footer = ({ mainContent = true }) => {
             style={{ justifyContent: mainContent ? "space-between" : "center" }}
           >
             <p className="copyright">
-              © 2026 Fam Consultant. All rights reserved | Made with ❤️ By <a href="https://spiraltech.com.co/" className="custom-link" target="_blank" rel="noopener noreferrer">Spiraltech</a>.
+              © 2026 Fam Consultant. All rights reserved | Made with{" "}
+              <a
+                href="https://spiraltech.com.co/"
+                className="custom-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ❤️
+              </a>
+              .
             </p>
             {mainContent && (
               <div className="footer-bottom-links">
