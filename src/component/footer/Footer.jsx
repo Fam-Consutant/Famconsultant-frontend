@@ -181,7 +181,7 @@ const Footer = ({ mainContent = true }) => {
                   <Link href="/scholarship/all">Scholarship</Link>
                 </li>
                 <li>
-                  <Link href="/ilets-pte">ILETS/PTE</Link>
+                  <Link href="/ielts-pte">IELTS/PTE</Link>
                 </li>
                 <li>
                   <Link href="/services">Services</Link>

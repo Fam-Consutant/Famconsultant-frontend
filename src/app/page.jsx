@@ -216,8 +216,8 @@ export default function Home() {
             </div>
 
             <div className="grid success-counters">
-              <CounterBox target={100} suffix="+" label="Students Assisted" />
-              <CounterBox target={8} suffix="+" label="Countries Covered" />
+              <CounterBox target={500} suffix="+" label="Students Assisted" />
+              <CounterBox target={10} suffix="+" label="Countries Covered" />
               <CounterBox target={50} suffix="+" label="Partner Universities" />
               <CounterBox target={95} suffix="%" label="Visa Success Rate" />
             </div>
