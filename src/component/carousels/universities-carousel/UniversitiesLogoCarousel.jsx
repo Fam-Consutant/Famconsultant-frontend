@@ -18,10 +18,15 @@ const UniversitiesLogoCarousel = () => {
     .filter((u) => !!u.imageUrl)
     .map((u) => ({ id: u.id, image: resolveImageUrl(u.imageUrl), alt: u.name }));
 
+  const duration = logos.length * 3; // 3s per logo — constant speed
+
   return (
     <div className="universities-carousel-wrapper">
       <div className="universities-marquee" aria-label="Partner universities">
-        <div className="universities-marquee__track">
+        <div
+          className="universities-marquee__track"
+          style={{ animationDuration: `${duration}s` }}
+        >
           {isLoading && (
             <div className="logo-slide" aria-busy="true" aria-label="Loading logos" />
           )}

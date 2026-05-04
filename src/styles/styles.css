@@ -971,7 +971,7 @@
     align-items: center;
     gap: 40px;
     width: max-content;
-    animation: universities-marquee 28s linear infinite;
+    animation: universities-marquee linear infinite;
 }
 
 .universities-marquee:hover .universities-marquee__track {

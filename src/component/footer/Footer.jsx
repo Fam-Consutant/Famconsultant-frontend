@@ -69,7 +69,7 @@ const Footer = ({ mainContent = true }) => {
               </p>
               <div className="footer-social-icons">
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/famconsultant"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -89,7 +89,7 @@ const Footer = ({ mainContent = true }) => {
                   </svg>
                 </a>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/thefamconsultant"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -108,7 +108,7 @@ const Footer = ({ mainContent = true }) => {
                     />
                   </svg>
                 </a>
-                <a
+                {/* <a
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -127,9 +127,9 @@ const Footer = ({ mainContent = true }) => {
                       fill="currentColor"
                     />
                   </svg>
-                </a>
+                </a> */}
                 <a
-                  href="https://tiktok.com"
+                  href="https://www.tiktok.com/@famconsultant?is_from_webapp=1&sender_device=pc"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -149,7 +149,7 @@ const Footer = ({ mainContent = true }) => {
                   </svg>
                 </a>
                 <a
-                  href="https://youtube.com"
+                  href="https://www.youtube.com/@OfficeFAMConsultant"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
